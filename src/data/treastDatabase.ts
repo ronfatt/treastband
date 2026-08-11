@@ -39,7 +39,8 @@ export interface Release {
   language: string;
   coverImage: string;
   description: string;
-  youtubeUrl?: string;
+  youtubeUrl: string;
+  youtubeEmbedId?: string;
   spotifyUrl?: string;
   appleMusicUrl?: string;
   credits: {
@@ -109,7 +110,7 @@ export const CORE_MEMBERS: CoreMember[] = [
     role: ["Main Producer", "Director", "Creative Direction"],
     instrument: "Production / Creative Direction",
     image: "/assets/hero_band_stage.jpg",
-    bio: "Leads overall production development behind Treast's expanding body of work at Treast Home Recording Studio. With over two decades in music, film, and advertising, R.ON shapes projects from concept to final master.",
+    bio: "Leads overall production development behind Treast's expanding body of work at Treast Home Recording Studio in Semporna. With over two decades in music, film, and advertising, R.ON shapes projects from concept to final master.",
     status: "Confirmed from project materials",
     needsConfirmation: false
   },
@@ -333,7 +334,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Malay / Sabahan",
     coverImage: "/assets/siara_cover.jpg",
     description: "A heartfelt rock anthem born from Semporna, carrying the tension between longing and hope through soaring guitars and Chang Mazhar's vocal performance.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Siara+Chang+Mazhar",
     credits: {
       vocal: "Chang Mazhar",
       composer: "Treast Band",
@@ -353,7 +354,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Tausug / Bajau / Malay",
     coverImage: "/assets/piyagbatuk_promo_16x9_v01.png",
     description: "A breathtaking cinematic ballad about fate and enduring love, featuring Sandakan's Fiq and Semporna's Emma, directed and produced by Ronnie Fung at Treast Home Recording Studio.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Piyagbatuk+Na+In+Suratan+Fiq+Emma",
     credits: {
       vocal: "Fiq & Emma",
       composer: "Budi Muin",
@@ -375,7 +376,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Local Sabah Dialect",
     coverImage: "/assets/tinombong_ka_cover.jpg",
     description: "A powerful collaboration fusing tribal Sabah percussion, driving guitar riffs, and Ce Mon's authentic cultural vocal phrasing.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Tinombong+Ka+Ce+Mon",
     credits: {
       vocal: "Ce Mon",
       composer: "Treast Band & Ce Mon",
@@ -393,7 +394,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "An energetic rock track celebrating identity, freedom, and the coastal rhythm of eastern Sabah.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Kyabayaanku",
     credits: { vocal: "Treast Band", producer: "Ronnie Fung" },
     featured: true
   },
@@ -408,7 +409,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/azirah.jpg",
     description: "Official music video collaboration with vocalist Azirah, blending emotional Sabahan melody with electric band instrumentation.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Azirah+Landu+Sa+In+Lasaku",
     credits: { vocal: "Azirah", producer: "Ronnie Fung" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -425,7 +426,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Malay",
     coverImage: "/assets/atikah_zaki.jpg",
     description: "High-octane official music video with rock vocalist Atikah Zaki.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Atikah+Zaki+Aku+Tak+Sempurna",
     credits: { vocal: "Atikah Zaki", producer: "Ronnie Fung" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -441,7 +442,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Malay",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Festive rock celebration of Aidilfitri, bringing togetherness and joy from Semporna home to families across Sabah.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Rayakan+Aidilfitri",
     credits: { vocal: "Treast Collective", producer: "Ronnie Fung" },
     featured: false
   },
@@ -455,6 +456,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Malay",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Warm festive song celebrating returning home to Sabah.",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Sukacita+Di+Hari+Raya",
     credits: { vocal: "Treast Band" },
     featured: false
   },
@@ -468,6 +470,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "A rock ballad about unspoken love and distance.",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Atay+Nu+Atay+Ku",
     credits: { vocal: "Treast Band" },
     featured: false
   },
@@ -482,6 +485,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Local Dialect",
     coverImage: "/assets/ce_mon.jpg",
     description: "Dynamic collaboration highlighting traditional Sabahan lyrical themes set against modern alternative rock.",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Ce+Mon+Mamahi+Panansang",
     credits: { vocal: "Ce Mon" },
     featured: false
   },
@@ -495,6 +499,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "2025 release promo track carrying regional melody and rock drive.",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Tunub+In+Nanam",
     credits: { vocal: "Treast Band" },
     featured: false
   },
@@ -509,7 +514,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Malay",
     coverImage: "/assets/atikah_zaki.jpg",
     description: "Atmospheric rock collaboration music video featuring Atikah Zaki.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Atikah+Zaki+Terakhir+Kali",
     credits: { vocal: "Atikah Zaki", producer: "Ronnie Fung" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -526,7 +531,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/pia_ramona.jpg",
     description: "Official cover release featuring Pia Ramona, blending folk sensitivity with modern rock production.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Pia+Ramona+Masi+Malasa",
     credits: { vocal: "Pia Ramona", producer: "Treast Studio" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -543,7 +548,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/pia_ramona.jpg",
     description: "Heavy rock arrangement cover featuring soaring vocals by Pia Ramona.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Pia+Ramona+Bugtuan+Napas",
     credits: { vocal: "Pia Ramona", producer: "Treast Studio" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -560,7 +565,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/pia_ramona.jpg",
     description: "Waterfront acoustic cover recorded live with Pia Ramona.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Pia+Ramona+Kiyapag+Isunan",
     credits: { vocal: "Pia Ramona" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -577,7 +582,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/pia_ramona.jpg",
     description: "Intimate official cover collaboration with vocalist Pia Ramona.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Pia+Ramona+Lasa+Mag+Labi",
     credits: { vocal: "Pia Ramona" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -594,7 +599,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/wanie_amir.jpg",
     description: "Official cover featuring Wanie Amir with acoustic and electric backing.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Wanie+Amir+Wayna+Dugaing+Lasahun",
     credits: { vocal: "Wanie Amir" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -611,7 +616,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Malay / Heritage",
     coverImage: "/assets/latif_rashid.jpg",
     description: "Heritage cover honoring regional songcraft with vintage acoustic work.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Latiff+Rashid+Sabalan",
     credits: { vocal: "Latiff Rashid" },
     sourcePlatform: "Treast Official YouTube",
     verification: "Verified on YouTube Official Channel",
@@ -627,7 +632,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Tausug / Sabahan",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Official cover of traditional Sabahan love song.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Kalasahanku",
     credits: { vocal: "Treast Band" },
     sourcePlatform: "Treast Official YouTube",
     featured: false
@@ -642,7 +647,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Tausug",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Rock arrangement of Tausug classic song.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Nagtatapok+Sin+Bayah",
     credits: { vocal: "Treast Band" },
     sourcePlatform: "Treast Official YouTube",
     featured: false
@@ -657,7 +662,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Tausug",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Atmospheric cover of traditional ballad 'Astana Kasilasa'.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Astana+Kasilasa",
     credits: { vocal: "Treast Band" },
     sourcePlatform: "Treast Official YouTube",
     featured: false
@@ -672,7 +677,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Tausug",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Regional heritage Tausug song reinterpreted with rock instrumentation.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Hitangis+Kura+Kuman",
     credits: { vocal: "Treast Band" },
     sourcePlatform: "Treast Official YouTube",
     featured: false
@@ -687,7 +692,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Tausug",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Semporna coastal acoustic cover release.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Ikaw+Na+In+Panagnaan",
     credits: { vocal: "Treast Band" },
     sourcePlatform: "Treast Official YouTube",
     featured: false
@@ -702,7 +707,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     language: "Sabahan",
     coverImage: "/assets/hero_band_stage.jpg",
     description: "Special tribute performance release on official YouTube.",
-    youtubeUrl: "https://www.youtube.com/@treastofficial",
+    youtubeUrl: "https://www.youtube.com/results?search_query=Treast+Band+Alpha+Kappa+Rho",
     credits: { vocal: "Treast Band" },
     sourcePlatform: "Treast Official YouTube",
     featured: false

@@ -790,14 +790,31 @@ export default function App() {
             <div className="border-t border-white/10 pt-4 space-y-3">
               <h4 className="text-xs font-mono-custom text-amber-400 uppercase tracking-wider flex items-center gap-2">
                 <Disc className="w-4 h-4 text-amber-400" />
-                Allocated Songs & Releases ({selectedArtist.attributedSongs.length})
+                Allocated Songs & YouTube Music Videos ({selectedArtist.attributedSongs.length})
               </h4>
-              <div className="flex flex-wrap gap-2">
-                {selectedArtist.attributedSongs.map((song, idx) => (
-                  <span key={idx} className="bg-amber-500/10 border border-amber-500/40 text-amber-300 text-xs px-3 py-1 rounded-full font-medium">
-                    {song}
-                  </span>
-                ))}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {selectedArtist.attributedSongs.map((songName, idx) => {
+                  const matchingRelease = MUSIC_CATALOGUE.find(r => r.title.toLowerCase().includes(songName.toLowerCase()) || songName.toLowerCase().includes(r.title.toLowerCase()));
+                  const targetUrl = matchingRelease ? matchingRelease.youtubeUrl : `https://www.youtube.com/results?search_query=Treast+Band+${encodeURIComponent(songName)}+${encodeURIComponent(selectedArtist.name)}`;
+                  
+                  return (
+                    <div key={idx} className="glass-panel p-3 rounded-2xl border border-white/10 flex items-center justify-between gap-2">
+                      <div className="text-xs font-bold text-white truncate">
+                        {songName}
+                      </div>
+                      <a 
+                        href={targetUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-gold px-3 py-1.5 rounded-lg text-[10px] uppercase font-bold tracking-wider inline-flex items-center gap-1 shrink-0"
+                        data-cursor="PLAY"
+                      >
+                        <Play className="w-3 h-3 fill-black" />
+                        Watch MV
+                      </a>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
