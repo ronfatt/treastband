@@ -1,0 +1,467 @@
+{
+  "project": {
+    "name": "Treast Band International Official Website",
+    "brand_name": "Treast Band",
+    "short_name": "Treast",
+    "base": "Semporna, Sabah, Malaysia",
+    "positioning": "Independent Malaysian rock band and creative music collective",
+    "primary_tagline": "The Sound of Semporna",
+    "supporting_line": "Born in Semporna. Rooted in culture. Made for the world.",
+    "brand_keywords": [
+      "Independent",
+      "Powerful",
+      "Original",
+      "Borneo Soul",
+      "Cultural",
+      "Cinematic"
+    ],
+    "editorial_rule": "Present Treast as an original artist collective, not as a generic wedding or lounge entertainment supplier."
+  },
+  "identity": {
+    "core_band_size": 4,
+    "featured_artist_model": true,
+    "featured_artist_target_count": 10,
+    "creative_layers": [
+      "Core Band",
+      "Featured Vocalists",
+      "Songwriters",
+      "Producers",
+      "Filmmakers"
+    ],
+    "sound_description": "Rock energy with Sabah/Borneo regional melodic character, emotional songwriting and multilingual/local-language collaborations.",
+    "themes": [
+      "love",
+      "longing",
+      "celebration",
+      "identity",
+      "everyday life",
+      "home",
+      "culture"
+    ]
+  },
+  "people": [
+    {
+      "name": "Ronnie Fung",
+      "artist_name": "R.ON",
+      "role": [
+        "Main Producer",
+        "Director",
+        "Creative Direction"
+      ],
+      "status": "confirmed from project materials",
+      "notes": "Leads overall production development, emotional direction, arrangement/production strategy and visual presentation."
+    },
+    {
+      "name": "Datu/Dato Hazriel",
+      "role": [
+        "Associate Producer",
+        "Creative Collaborator",
+        "Lyricist on selected works"
+      ],
+      "status": "title spelling needs final confirmation",
+      "notes": "Project materials use both Datu Hazriel and Dato Hazriel."
+    },
+    {
+      "name": "Budi Muin",
+      "role": [
+        "Musician",
+        "Composer",
+        "Mixing/Mastering",
+        "Producer on selected works"
+      ],
+      "status": "public credits found",
+      "notes": "Appears in Treast public video credits; exact permanent band role should be confirmed."
+    },
+    {
+      "name": "Meme Gend",
+      "role": [
+        "Guitar"
+      ],
+      "status": "public credits found",
+      "notes": "Appears in Treast performance/video credits; confirm whether core member."
+    },
+    {
+      "name": "Ayu",
+      "role": [
+        "Keyboard"
+      ],
+      "status": "public credits found",
+      "notes": "Appears in a Treast collaboration/cover credit; full name and core-member status need confirmation."
+    },
+    {
+      "name": "Chang Mazhar",
+      "role": [
+        "Featured Vocalist"
+      ],
+      "known_for": [
+        "Siara"
+      ],
+      "status": "public credits found"
+    },
+    {
+      "name": "Ce Mon",
+      "role": [
+        "Featured Vocalist"
+      ],
+      "known_for": [
+        "Tinombong Ka",
+        "Mamahi Panansang"
+      ],
+      "status": "public credits found"
+    },
+    {
+      "name": "Fiq",
+      "role": [
+        "Featured Vocalist"
+      ],
+      "known_for": [
+        "Piyagbatuk Na In Suratan"
+      ],
+      "origin": "Sandakan, Sabah (from project artwork)",
+      "status": "project material"
+    },
+    {
+      "name": "Emma",
+      "role": [
+        "Featured Vocalist"
+      ],
+      "known_for": [
+        "Piyagbatuk Na In Suratan"
+      ],
+      "origin": "Semporna, Sabah (from project artwork)",
+      "status": "project material"
+    },
+    {
+      "name": "Pia Ramona",
+      "role": [
+        "Featured/Collaborating Vocalist"
+      ],
+      "status": "YouTube-linked secondary index confirmed",
+      "known_for": [
+        "Bugtuan Napas",
+        "Kiyapag Isunan",
+        "Lasa Mag Labi",
+        "Masi Malasa"
+      ]
+    },
+    {
+      "name": "Latif Rashid",
+      "role": [
+        "Featured/Collaborating Vocalist"
+      ],
+      "status": "YouTube-linked secondary index confirmed",
+      "known_for": [
+        "Sabalan"
+      ]
+    },
+    {
+      "name": "Wanie Amir",
+      "role": [
+        "Featured/Collaborating Vocalist"
+      ],
+      "known_for": [
+        "Wayna Dugaing Lasahun"
+      ],
+      "status": "YouTube-linked secondary index confirmed"
+    },
+    {
+      "name": "Azirah",
+      "role": [
+        "Featured/Collaborating Vocalist"
+      ],
+      "known_for": [
+        "Landu Sa In Lasaku"
+      ],
+      "status": "YouTube-linked secondary index confirmed"
+    },
+    {
+      "name": "Atikah Zaki",
+      "role": [
+        "Featured/Collaborating Vocalist"
+      ],
+      "known_for": [
+        "Aku Tak Sempurna",
+        "Terakhir Kali"
+      ],
+      "status": "YouTube-linked secondary index confirmed"
+    }
+  ],
+  "music_catalogue": [
+    {
+      "title": "Siara",
+      "artist": "Treast",
+      "vocal": "Chang Mazhar",
+      "category": "Original",
+      "status": "public official music video found"
+    },
+    {
+      "title": "Sukacita Di Hari Raya",
+      "artist": "Treast",
+      "category": "Original",
+      "status": "existing project copy"
+    },
+    {
+      "title": "Atay Nu Atay Ku",
+      "artist": "Treast",
+      "category": "Original",
+      "status": "existing project copy"
+    },
+    {
+      "title": "Kyabayaanku",
+      "artist": "Treast",
+      "category": "Original",
+      "status": "public official music video found"
+    },
+    {
+      "title": "Tinombong Ka",
+      "artist": "Ce Mon x Treast",
+      "category": "Collaboration",
+      "status": "public official music video found"
+    },
+    {
+      "title": "Rayakan Aidilfitri",
+      "artist": "Treast",
+      "category": "Original",
+      "status": "public official music video found"
+    },
+    {
+      "title": "Mamahi Panansang",
+      "artist": "Treast",
+      "vocal": "Ce Mon",
+      "category": "Original",
+      "status": "public promotional post found"
+    },
+    {
+      "title": "Tunub In Nanam",
+      "artist": "Treast",
+      "category": "Original",
+      "status": "2025 promo reference found"
+    },
+    {
+      "title": "Piyagbatuk Na In Suratan",
+      "artist": "Trrast/Treast",
+      "vocal": [
+        "Fiq",
+        "Emma"
+      ],
+      "composer": "Budi Muin",
+      "lyrics": "Jonaherry",
+      "director_producer": "Ronnie Fung",
+      "music_video": "Sent Fai",
+      "category": "Project / release asset",
+      "status": "credits from user project artwork; spelling Trrast vs Treast must be standardized"
+    },
+    {
+      "title": "Masi Malasa",
+      "artist": "Treast X Pia Ramona",
+      "featured_artist": "Pia Ramona",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Bugtuan Napas",
+      "artist": "Treast X Pia Ramona",
+      "featured_artist": "Pia Ramona",
+      "category": "Rock Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Kiyapag Isunan",
+      "artist": "Treast X Pia Ramona",
+      "featured_artist": "Pia Ramona",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Lasa Mag Labi",
+      "artist": "Pia Ramona X Treast",
+      "featured_artist": "Pia Ramona",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Wayna Dugaing Lasahun",
+      "artist": "Treast X Wanie Amir",
+      "featured_artist": "Wanie Amir",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Sabalan",
+      "artist": "Treast X Latiff Rashid",
+      "featured_artist": "Latiff Rashid",
+      "category": "Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Landu Sa In Lasaku",
+      "artist": "Azirah X Treast",
+      "featured_artist": "Azirah",
+      "category": "Official Music Video",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Aku Tak Sempurna",
+      "artist": "Atikah Zaki X Treast",
+      "featured_artist": "Atikah Zaki",
+      "category": "Official Music Video",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Terakhir Kali",
+      "artist": "Atikah Zaki X Treast",
+      "featured_artist": "Atikah Zaki",
+      "category": "Official Music Video",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Kalasahanku",
+      "artist": "Treast",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Nagtatapok Sin Bayah",
+      "artist": "Treast",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Astana Kasilasa",
+      "artist": "Treast",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Hitangis Kura Kuman",
+      "artist": "Treast",
+      "category": "Official Cover / Tausug Song",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Ikaw Na In Panagnaan",
+      "artist": "Treast",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    },
+    {
+      "title": "Alpha Kappa Rho",
+      "artist": "Treast",
+      "category": "Official Cover",
+      "source_platform": "Treast Official YouTube",
+      "verification": "secondary index linked to YouTube"
+    }
+  ],
+  "services": [
+    "Live Performance Booking",
+    "Original Songwriting & Arrangement",
+    "Music Production",
+    "Music Video Production",
+    "Commercial Jingles & Theme Songs"
+  ],
+  "live_formats": [
+    "Full Treast Band",
+    "Acoustic / Unplugged Set",
+    "Treast with Featured Vocalists",
+    "Festival and Cultural Performance",
+    "Corporate Event and Product Launch",
+    "Wedding and Private Celebration",
+    "Custom Theme Song with Live Premiere"
+  ],
+  "contact": {
+    "location": "Semporna, Sabah, Malaysia",
+    "booking_management": "+60 13-436 0024",
+    "email": "treast.band@gmail.com",
+    "social_handles": {
+      "instagram": "treast_official",
+      "youtube": "Treast Official"
+    }
+  },
+  "website_architecture": [
+    "Home",
+    "Our Story",
+    "The Band",
+    "Artists",
+    "Music",
+    "Productions",
+    "Live & Booking",
+    "Contact"
+  ],
+  "asset_manifest": [
+    {
+      "file": "assets/fiq_emma_source_photo_01.jpg",
+      "type": "source photo",
+      "use": "artist/release page",
+      "rights": "confirm ownership/release before public launch"
+    },
+    {
+      "file": "assets/fiq_emma_source_photo_02.png",
+      "type": "source/photo-derived asset",
+      "use": "artist/release page",
+      "rights": "confirm ownership/release before public launch"
+    },
+    {
+      "file": "assets/piyagbatuk_promo_16x9_v01.png",
+      "type": "designed promotional artwork",
+      "use": "release hero / thumbnail",
+      "rights": "project-generated asset"
+    },
+    {
+      "file": "assets/piyagbatuk_promo_v02.png",
+      "type": "designed promotional artwork",
+      "use": "release gallery",
+      "rights": "project-generated asset"
+    },
+    {
+      "file": "assets/piyagbatuk_promo_v03.png",
+      "type": "designed promotional artwork",
+      "use": "release gallery",
+      "rights": "project-generated asset"
+    }
+  ],
+  "missing_critical_data": [
+    "Confirmed full names + instruments/roles of all four core band members",
+    "3–5 sentence biography for each core member",
+    "Full list of 10 featured singers with portrait, language, genre/style and representative songs",
+    "Final official spelling/title: Datu Hazriel or Dato Hazriel",
+    "Band formation year and verified timeline",
+    "Official logo files: SVG/transparent PNG",
+    "Official Facebook/TikTok/Spotify/Apple Music URLs",
+    "Complete discography with release dates, ISRC/distributor links and cover artwork",
+    "Complete credits for each original song",
+    "High-resolution rights-cleared core-band group photo",
+    "Individual portrait of each core member",
+    "Live performance photography",
+    "Studio / behind-the-scenes photography",
+    "Booking response person and preferred public WhatsApp",
+    "Press coverage / awards / festival appearances"
+  ],
+  "youtube_source": {
+    "channel_name": "Treast Official",
+    "handle": "@treastofficial",
+    "channel_url": "https://www.youtube.com/@treastofficial",
+    "role": "Primary public catalogue source for website research",
+    "catalogue_policy": "Use title/category/artist relationships from the official channel; verify detailed production credits from the individual video description before publication."
+  },
+  "database_version": "2.0",
+  "database_notes": [
+    "V2 expands the catalogue using public indexes that resolve back to Treast Official YouTube videos.",
+    "Official YouTube channel should be treated as the primary public catalogue source.",
+    "Do not infer composer/lyricist/producer credits from song titles; fetch each video's description before publishing those fields.",
+    "Original, collaboration, cover and live content must remain separately filterable."
+  ]
+}

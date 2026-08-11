@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treast Band | Official Website — The Sound of Semporna</title>
+    <meta name="description" content="Official website of Treast Band, an independent Malaysian rock band and music collective from Semporna, Sabah. Discover original music, featured artists, music videos, production services and live booking." />
+    <meta name="keywords" content="Treast Band, Treast Official, Semporna band, Sabah rock band, Malaysian independent band, Sabah music, Tausug music, live band Sabah, music production Semporna" />
+    
+    <!-- OpenGraph / Social Sharing -->
+    <meta property="og:title" content="Treast Band — Born in Semporna. Made for the World." />
+    <meta property="og:description" content="Discover the music, artists and stories behind Treast Band — an independent sound shaped by Semporna and shared beyond borders." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/hero_band_stage.jpg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS Engine -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              obsidian: '#050608',
+              charcoal: '#0c0e14',
+              card: '#131722',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-obsidian text-slate-100 antialiased font-sans selection:bg-amber-500 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
