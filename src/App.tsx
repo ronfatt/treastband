@@ -795,7 +795,7 @@ export default function App() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {selectedArtist.attributedSongs.map((songName, idx) => {
                   const matchingRelease = MUSIC_CATALOGUE.find(r => r.title.toLowerCase().includes(songName.toLowerCase()) || songName.toLowerCase().includes(r.title.toLowerCase()));
-                  const targetUrl = matchingRelease ? matchingRelease.youtubeUrl : `https://www.youtube.com/results?search_query=Treast+Band+${encodeURIComponent(songName)}+${encodeURIComponent(selectedArtist.name)}`;
+                  const targetUrl = matchingRelease ? matchingRelease.youtubeUrl : BAND_INFO.youtubeChannelUrl;
                   
                   return (
                     <div key={idx} className="glass-panel p-3 rounded-2xl border border-white/10 flex items-center justify-between gap-2">
@@ -834,23 +834,13 @@ export default function App() {
             </button>
 
             <div className="relative aspect-video rounded-2xl overflow-hidden mb-4 bg-black border border-amber-500/30 shadow-2xl">
-              {selectedVideoRelease.youtubeEmbedId ? (
-                <iframe 
-                  src={`https://www.youtube-nocookie.com/embed/${selectedVideoRelease.youtubeEmbedId}?autoplay=1&rel=0&modestbranding=1`}
-                  title={`${selectedVideoRelease.title} — Treast Band Official MV`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowFullScreen
-                  className="w-full h-full border-0 rounded-2xl"
-                />
-              ) : (
-                <iframe 
-                  src={`https://www.youtube-nocookie.com/embed?listType=search&list=${encodeURIComponent(selectedVideoRelease.title + " Treast Band Official")}&autoplay=1`}
-                  title={`${selectedVideoRelease.title} — Treast Band Official MV`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowFullScreen
-                  className="w-full h-full border-0 rounded-2xl"
-                />
-              )}
+              <iframe 
+                src={`https://www.youtube.com/embed/${selectedVideoRelease.youtubeEmbedId || 'L_LUpnjgPso'}?autoplay=1&rel=0&enablejsapi=1`}
+                title={`${selectedVideoRelease.title} — Treast Band Official MV`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+                className="w-full h-full border-0 rounded-2xl"
+              />
             </div>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white/5 p-4 rounded-2xl border border-white/10 mb-2">
