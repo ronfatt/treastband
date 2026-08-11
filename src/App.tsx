@@ -374,6 +374,11 @@ export default function App() {
                     <img 
                       src={release.coverImage} 
                       alt={release.title} 
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = release.youtubeEmbedId 
+                          ? `https://img.youtube.com/vi/${release.youtubeEmbedId}/hqdefault.jpg` 
+                          : '/assets/hero_band_stage.jpg';
+                      }}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#050608] via-transparent to-transparent opacity-80" />
