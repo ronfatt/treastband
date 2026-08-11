@@ -80,14 +80,22 @@ export const BAND_INFO = {
   tagline: "The Sound of Semporna",
   supportingLine: "Born in Semporna. Rooted in culture. Made for the world.",
   positioning: "Independent Malaysian rock band and creative music collective",
+  studioName: "TREAST HOME RECORDING STUDIO",
   base: "Semporna, Sabah, Malaysia",
   phone: "+60 13-436 0024",
   email: "treast.band@gmail.com",
   youtubeChannelUrl: "https://www.youtube.com/@treastofficial",
+  facebookPageUrl: "https://www.facebook.com/profile.php?id=61574080386821",
+  stats: {
+    facebookFollowers: "30,000+",
+    youtubeChannel: "@treastofficial",
+    cataloguedTracks: "24",
+    musicians: "13"
+  },
   socials: {
     instagram: "https://instagram.com/treast_official",
     youtube: "https://www.youtube.com/@treastofficial",
-    facebook: "https://facebook.com/treastband",
+    facebook: "https://www.facebook.com/profile.php?id=61574080386821",
     tiktok: "https://tiktok.com/@treast_official"
   },
   keywords: ["ROOTS", "RHYTHM", "BROTHERHOOD", "FREEDOM", "SEMPORNA"]
@@ -101,7 +109,7 @@ export const CORE_MEMBERS: CoreMember[] = [
     role: ["Main Producer", "Director", "Creative Direction"],
     instrument: "Production / Creative Direction",
     image: "/assets/hero_band_stage.jpg",
-    bio: "Leads overall production development behind Treast's expanding body of work. With over two decades in music, film, and advertising, R.ON shapes projects from concept and emotional direction to final presentation.",
+    bio: "Leads overall production development behind Treast's expanding body of work at Treast Home Recording Studio. With over two decades in music, film, and advertising, R.ON shapes projects from concept to final master.",
     status: "Confirmed from project materials",
     needsConfirmation: false
   },
@@ -146,8 +154,8 @@ export const FEATURED_ARTISTS: FeaturedArtist[] = [
     vocalStyle: "Main Producer & Creative Director",
     origin: "Sabah, Malaysia",
     image: "/assets/hero_band_stage.jpg",
-    shortBio: "Main producer, director, and creative lead behind Treast Band.",
-    fullBio: "Ronnie Fung (R.ON) leads overall production development across music, film, and visual storytelling, guiding Treast Band's emotional direction and international vision.",
+    shortBio: "Main producer, director, and creative lead behind Treast Home Recording Studio.",
+    fullBio: "Ronnie Fung (R.ON) leads overall production development across music, film, and visual storytelling at Treast Home Recording Studio, guiding Treast Band's emotional direction and international vision.",
     knownFor: ["Producer & Director across all releases"],
     attributedSongs: ["Piyagbatuk Na In Suratan", "Siara", "Tinombong Ka"],
     status: "Core Producer / Director"
@@ -344,7 +352,7 @@ export const MUSIC_CATALOGUE: Release[] = [
     category: "ORIGINALS",
     language: "Tausug / Bajau / Malay",
     coverImage: "/assets/piyagbatuk_promo_16x9_v01.png",
-    description: "A breathtaking cinematic ballad about fate and enduring love, featuring Sandakan's Fiq and Semporna's Emma, directed and produced by Ronnie Fung.",
+    description: "A breathtaking cinematic ballad about fate and enduring love, featuring Sandakan's Fiq and Semporna's Emma, directed and produced by Ronnie Fung at Treast Home Recording Studio.",
     youtubeUrl: "https://www.youtube.com/@treastofficial",
     credits: {
       vocal: "Fiq & Emma",
@@ -707,14 +715,14 @@ export const PRODUCERS: Producer[] = [
     artistName: "R.ON",
     title: "MAIN PRODUCER / DIRECTOR",
     role: "Overall Production Lead & Creative Direction",
-    bio: "Ronnie Fung, creatively known as R.ON, leads overall production development behind Treast's expanding body of work. Drawing on more than two decades of experience across music, film, advertising and visual storytelling, he helps shape each project from concept and emotional direction to final presentation.",
+    bio: "Ronnie Fung, creatively known as R.ON, leads overall production development behind Treast's expanding body of work at Treast Home Recording Studio in Semporna. Drawing on more than two decades of experience across music, film, advertising and visual storytelling.",
     status: "Confirmed"
   },
   {
     name: "Dato Hazriel",
     title: "ASSOCIATE PRODUCER / CREATIVE COLLABORATOR",
     role: "Project Coordination & Lyricist",
-    bio: "Dato Hazriel works alongside the band and production team across creative development, project coordination and visual production. With a strong connection to the local music and creative community, he helps turn ideas into organised, practical productions.",
+    bio: "Dato Hazriel works alongside the band and production team across creative development, project coordination and visual production.",
     note: "Also referenced as Datu Hazriel in select reference documents.",
     status: "Title spelling confirmation pending"
   }
@@ -738,7 +746,7 @@ export const SERVICES: Service[] = [
   {
     id: "music-production",
     title: "Music Production",
-    description: "From demo concept to final master — arrangement, recording coordination, vocal direction, and high-end mixing and mastering.",
+    description: "From demo concept to final master — arrangement, recording coordination, vocal direction, mixing and mastering at Treast Home Recording Studio.",
     ctaText: "Start Music Project",
     tag: "Studio"
   },

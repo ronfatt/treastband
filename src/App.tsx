@@ -224,22 +224,22 @@ export default function App() {
           </div>
 
           {/* Highlights summary badge */}
-          <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto">
+          <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="glass-panel p-4 rounded-2xl text-center border-amber-500/20">
-              <div className="text-2xl font-black font-display text-amber-400">4</div>
-              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Core Musicians</div>
+              <div className="text-2xl font-black font-display text-amber-400">30.9K+</div>
+              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Facebook Followers</div>
             </div>
             <div className="glass-panel p-4 rounded-2xl text-center border-amber-500/20">
-              <div className="text-2xl font-black font-display text-amber-400">9</div>
-              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Featured Vocalists</div>
+              <div className="text-2xl font-black font-display text-amber-400">13</div>
+              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Musicians & Singers</div>
             </div>
             <div className="glass-panel p-4 rounded-2xl text-center border-amber-500/20">
               <div className="text-2xl font-black font-display text-amber-400">{MUSIC_CATALOGUE.length}</div>
-              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Catalogued Tracks</div>
+              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Catalogued Releases</div>
             </div>
             <div className="glass-panel p-4 rounded-2xl text-center border-amber-500/20">
-              <div className="text-2xl font-black font-display text-amber-400">3D UI</div>
-              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Interactive Hub</div>
+              <div className="text-xl font-black font-display text-amber-400">HOME STUDIO</div>
+              <div className="text-[11px] text-slate-400 uppercase tracking-wider font-mono-custom mt-1">Semporna HQ</div>
             </div>
           </div>
         </div>
